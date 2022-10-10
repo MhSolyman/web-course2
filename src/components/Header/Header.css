@@ -1,0 +1,9 @@
+.gape{
+    margin-left: 30px;
+}
+.display-flex{
+ 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
