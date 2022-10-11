@@ -5,6 +5,7 @@ import {
   RouterProvider
 } from "react-router-dom";
 import About from './components/About/About';
+import Chart from './components/Chart/Chart';
 import Home from './components/Home/Home';
 import Quize from './components/Quize/Quize';
 import Main from './layout/Main';
@@ -34,6 +35,10 @@ function App() {
         path:'/quize/:quizeId',
         loader:({params})=>fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizeId}`),
         element:<Quize></Quize>
+      },
+      {
+        path:'/statistics',
+        element:<Chart></Chart>
       }
     ]
     },

@@ -12,8 +12,8 @@ const Home = () => {
 
     return (
         <div className='conatiner margin'>
-            <div className='header d-flex'>
-                <img className='img-one' src="img/one.jpg" alt="" ></img>
+            <div className='header d-flex'><div className='img-one'><img className='img-two img-fluid"' src="img/one.jpg" alt="" ></img></div>
+                
                 <div className='text'>
                     <h1 className='font-size text-primary'>Let's <br />
                      start learning 

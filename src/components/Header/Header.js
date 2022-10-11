@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import './Header.css'
 
 
@@ -13,8 +14,9 @@ const Header = () => {
                 </div>
                 <div className='justify-content-end' >
 
-                    
+                    <Link to='/statistics'>statistics</Link>
                     <Link to='/about'>About</Link>
+                    
                 </div>
             </nav>
         </div>

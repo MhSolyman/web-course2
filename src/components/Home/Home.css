@@ -8,11 +8,17 @@
     height:50%;
     width: 50%;
 }
+.img-two{
+    height:100%;
+    width: 100%;
+}
 .header{
     height: 100%;
     width:100%
 }
 .text{
+    height: 50%;
+    width: 50%;
     padding-left: 5%;
 padding-top: 10%;
 }
@@ -20,6 +26,4 @@ padding-top: 10%;
     padding-top: 5%;
     
 }
-.font-size{
-    font-size: 300%;
-}
+
