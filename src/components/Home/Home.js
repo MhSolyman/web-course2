@@ -1,22 +1,33 @@
 import React from 'react';
+
 import { useLoaderData } from 'react-router-dom';
 import Cart from '../Crat/Cart';
 import './Home.css'
 
 const Home = () => {
-    let  data= useLoaderData();
-   let quizs=data.data;
- 
-    
+    let data = useLoaderData();
+    let quizs = data.data;
+
+
+
     return (
         <div className='conatiner margin'>
-            <div className='d-flex'>
-            {quizs.map(quiz=><Cart quiz={quiz}
-            key={quiz.id}></Cart>)}
+            <div className='header d-flex'>
+                <img className='img-one' src="img/one.jpg" alt="" ></img>
+                <div className='text'>
+                    <h1 className='font-size text-primary'>Let's <br />
+                     start learning 
+                     <br />
+                      web-development</h1>
+                </div>
             </div>
-            
+            <div className='d-flex bottom-cart'>
+                {quizs.map(quiz => <Cart quiz={quiz}
+                    key={quiz.id}></Cart>)}
+            </div>
 
-            
+
+
         </div>
     );
 };

@@ -1,11 +1,12 @@
 .background-c{
-    height: auto px;
-    width: 1000px;
-    margin-top: 30px;
+    height: auto ;
+    width: 60%;
+    margin-top: 2%;
     border: 3px solid #0d6efd;
     text-align: center;
-    margin-left:250px ;
-    padding: 30px;
+    margin-left:20% ;
+    margin-right: 20%;
+    padding: 5%;
 }
 .border-one{
     margin-top: 10px;
