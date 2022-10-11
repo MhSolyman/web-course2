@@ -7,15 +7,20 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='container background' >
+            
+
+
+
+
             <nav className='display-flex'>
                 <div className='display-flex'>
                     <h2><b className='text-primary'>Web</b> Tutorial</h2>
                     <Link to='/'>Home</Link>
                 </div>
-                <div className='justify-content-end' >
+                <div className='justify-content-end gape' >
 
-                    <Link to='/statistics'>statistics</Link>
-                    <Link to='/about'>About</Link>
+                    <Link className='gape' to='/statistics'>statistics</Link>
+                    <Link className='gape' to='/blog'>Blog</Link>
                     
                 </div>
             </nav>

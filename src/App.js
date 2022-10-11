@@ -27,7 +27,7 @@ function App() {
         element:<Home></Home>
       },
       {
-        path:"/about",
+        path:"/blog",
         element:<About></About>
 
       },
@@ -42,6 +42,10 @@ function App() {
       }
     ]
     },
+    {
+      path:"*",
+      element:<div><h1>This is not route. Plese click header option: 404 not found</h1></div>
+    }
 
   
   ]);
