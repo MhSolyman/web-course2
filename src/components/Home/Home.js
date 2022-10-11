@@ -12,16 +12,19 @@ const Home = () => {
 
     return (
         <div className='conatiner margin'>
-            <div className='header d-flex'><div className='img-one'><img className='img-two img-fluid"' src="img/one.jpg" alt="" ></img></div>
-                
+            <div className='header flex-display'>
+                <div className='img-one'>
+                    <img className='img-two img-fluid"' src="img/one.jpg" alt="" ></img>
+                </div>
+
                 <div className='text'>
                     <h1 className='font-size text-primary'>Let's <br />
-                     start learning 
-                     <br />
-                      web-development</h1>
+                        start learning
+                        <br />
+                        web-development</h1>
                 </div>
             </div>
-            <div className='d-flex bottom-cart'>
+            <div className='flex-display bottom-cart'>
                 {quizs.map(quiz => <Cart quiz={quiz}
                     key={quiz.id}></Cart>)}
             </div>
