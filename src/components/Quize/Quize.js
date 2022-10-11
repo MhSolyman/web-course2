@@ -8,7 +8,7 @@ const Quize = () => {
     
     return (
         <div>
-            <h2 className='text-center'> Quize of {quiz.data.name}</h2>
+            <h2 className='text-center text-primary'> <b> Quize of {quiz.data.name}</b></h2>
 <Allquize quizeall={quizeall}>
 
 </Allquize>

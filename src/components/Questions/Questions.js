@@ -12,8 +12,8 @@ const Questions = ({ questiondetail }) => {
 
     return (
         <div className='text-center card background-c'>
-            <h4><b>{question}</b></h4>
-            <div className='d-flex mx-5 text-center '>{options.map(option => <p onClick={() => { if (option !== correctAnswer) { alert('wrong answer') } }} className='mx-5 border border-success p-2 mb-2'>{option}</p>)}</div>
+            <h4><b className='text-primary'>{question}</b></h4>
+            <div className='mx-5 text-center text-primary'>{options.map(option => <p onClick={() => { if (option !== correctAnswer) { alert('wrong answer') } }} className='mx-5 border-one p-2 mb-2'>{option}</p>)}</div>
          {<p onClick={()=>b(correctAnswer)}>a</p>}
         <p>{rel}</p>
          

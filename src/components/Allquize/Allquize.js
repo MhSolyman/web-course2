@@ -5,7 +5,7 @@ const Allquize = ({quizeall}) => {
     const {questions}=quizeall
    
     return (
-        <div>
+        <div className='text-center'>
             
             
             {questions.map(questiondetail=><Questions questiondetail={questiondetail}
