@@ -1,12 +1,12 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Cart from '../Header/Crat/Cart';
+import Cart from '../Crat/Cart';
 import './Home.css'
 
 const Home = () => {
     let  data= useLoaderData();
    let quizs=data.data;
-   console.log(data)
+ 
     
     return (
         <div className='conatiner margin'>
