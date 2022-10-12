@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import './questions.css'
 
 const Questions = ({ questiondetail }) => {
-    const { question, options, correctAnswer } = questiondetail;
+    const {question, options, correctAnswer} = questiondetail;
+   
     
    const [rel, setReal] = useState()
     const b=(correctAnswer)=>{
