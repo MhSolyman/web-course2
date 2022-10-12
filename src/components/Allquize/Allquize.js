@@ -9,7 +9,7 @@ const Allquize = ({quizeall}) => {
             
             
             {questions.map(questiondetail=><Questions questiondetail={questiondetail}
-            key={questiondetail.id}> a</Questions>)}
+            key={questiondetail.id}> </Questions>)}
            
         </div>
     );

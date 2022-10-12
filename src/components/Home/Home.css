@@ -38,9 +38,7 @@
     padding-left: 2%;
 }
 @media only screen and (max-width: 600px ) {
-    body {
-      background-color: lightblue;
-    }
+   
     .margin{
         
         padding-top: 2%;
@@ -68,6 +66,7 @@
     .flex-display{
         display: flex;
         flex-direction: column;
+        
     }
     .bottom-cart{
         padding-top: 10%;

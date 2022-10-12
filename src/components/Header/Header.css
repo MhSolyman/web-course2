@@ -7,3 +7,17 @@
     align-items: center;
     gap: 30px;
 }
+.decoration{
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px ){
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .gape{
+        margin-left: 0px;
+       
+    }
+    
+}
